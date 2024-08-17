@@ -1,0 +1,48 @@
+.rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* This makes the content take up all available space */
+    text-align: center;
+}
+
+main img {
+    margin-top: -8vh;
+    height: 100vh;
+    margin-bottom: -20vh;
+}
+
+footer {
+    
+    color: white; /* Footer text color */
+    text-align: left; /* Centered text */
+    padding: 10px 0; /* Padding around the text */
+}
+
+footer h2 {
+    margin-left: 3vw;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    color: bisque;
+    background-color: #050505;
+}
